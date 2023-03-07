@@ -18,6 +18,8 @@
 
 [Registrasi (di telegram bot)](https://t.me/thepowerio_bot)
 
+[Wallet](https://hub.thepower.io)
+
 ## Persyaratan hardware & software
 
 ### Persyaratan hardware
