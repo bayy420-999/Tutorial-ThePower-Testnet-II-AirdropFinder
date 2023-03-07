@@ -183,6 +183,7 @@ Contabo:
    }
    ```
 4. Submit url ke bot
+
    Balik ke bot tadi terus submit url kalian ke bot, contoh url:
    ```console
    https://vmi1371906.contaboserver.net:1443/api/node/status
