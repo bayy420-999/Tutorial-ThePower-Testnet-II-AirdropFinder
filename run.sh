@@ -15,6 +15,11 @@ echo "==========INSTALLING DEPENDENCIES=========="
 sleep 2
 
 apt -y install erlang-base erlang-public-key erlang-ssl docker-compose
+
+if [ -f /usr/local/bin/tp ]; then
+   rm -rf /usr/local/bin/tp
+fi
+
 sudo wget https://tea.thepower.io/tp -O /usr/local/bin/tp
 sudo chmod a+x /usr/local/bin/tp
 
@@ -75,6 +80,11 @@ grep priv tpcli.key >> node.config
 
 echo "==========GETTING SSL=========="
 sleep 2
+
+sudo ufw allow 80
+sudo ufw allow 1443
+sudo ufw allow 1080
+sudo ufw allow 1800
 
 apt-get install socat
 curl https://get.acme.sh | sh -s email=$EMAIL
