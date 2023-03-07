@@ -90,8 +90,12 @@ Contabo:
    ```console
    chmod +x run.sh
    ```
-4. Masukan Hostname (DNS yang dicopy tadi)
-5. Masukan Upstream link (yang dicopy tadi) dengan format seperti dibawah:
+4. Jalankan script
+   ```console
+   ./run.sh
+   ```
+5. Masukan Hostname (DNS yang dicopy tadi)
+6. Masukan Upstream link (yang dicopy tadi) dengan format seperti dibawah:
    ```console
    "http://c1040n14.deinfra.net:1080/?genesis=WsR0oYGe8k00IMpLH4I_g3R-_CEEQai_GJI5CU2tKVk",
    "http://c1040n17.deinfra.net:1080/?genesis=WsR0oYGe8k00IMpLH4I_g3R-_CEEQai_GJI5CU2tKVk",
@@ -102,8 +106,8 @@ Contabo:
    "http://c1040n14.deinfra.net:1080/?genesis=WsR0oYGe8k00IMpLH4I_g3R-_CEEQai_GJI5CU2tKVk", "http://c1040n17.deinfra.net:1080/?genesis=WsR0oYGe8k00IMpLH4I_g3R-_CEEQai_GJI5CU2tKVk", "http://c1040n16.deinfra.net:1080/?genesis=WsR0oYGe8k00IMpLH4I_g3R-_CEEQai_GJI5CU2tKVk"
    ```
    (Hapus newline/enter)
-6. Masukan email kalian
-7. Tunggu sampai setup finished
+7. Masukan email kalian
+8. Tunggu sampai setup finished
 
 ### Jalankan Node
 1. Masuk ke direktori Node
