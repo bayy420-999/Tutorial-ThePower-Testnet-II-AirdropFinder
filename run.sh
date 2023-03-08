@@ -88,7 +88,7 @@ sudo ufw allow 1800
 
 apt-get install socat cronie
 curl https://get.acme.sh | sh -s email=$EMAIL
-. $HOME/.acme.sh/acme.sh.env
+source $HOME/.bashrc
 acme.sh --server letsencrypt --issue --standalone -d $HOSTNAME
 
 acme.sh --install-cert -d $HOSTNAME \
